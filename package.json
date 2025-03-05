@@ -1,0 +1,34 @@
+{
+  "name": "shado-labs",
+  "version": "1.0.0",
+  "description": "Shadō Network proving labs.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "example:kitchen-sink": "tsx examples/kitchen-sink/index.ts",
+    "example:command-line": "tsx examples/command-line/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@shado-network/adapter-anthropic": "^0.0.1",
+    "@shado-network/adapter-deepseek": "^0.0.1",
+    "@shado-network/adapter-openai": "^0.0.1",
+    "@shado-network/client-telegram": "^0.0.1",
+    "@shado-network/client-twitter-api": "^0.0.1",
+    "@shado-network/shado-comms": "^0.0.1",
+    "@shado-network/shado-logger": "^0.0.1",
+    "@shado-network/shado-planner-htn": "^0.0.1",
+    "@shado-network/shado-sandbox": "^0.0.1",
+    "dotenv": "^16.4.7",
+    "shado-play": "^0.0.1",
+    "shado-puppet": "^0.0.1",
+    "yargs": "^17.7.2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // "strict": true,
+    //
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "dom"],
+    "moduleResolution": "bundler",
+    // "types": ["node"],
+    //
+    "rootDir": ".",
+    "outDir": "./dist",
+    "incremental": false,
+    "removeComments": true,
+    //
+    "noEmit": false,
+    "emitDeclarationOnly": false,
+    "allowJs": true,
+    "checkJs": false,
+    // "allowArbitraryExtensions": true,
+    // "allowImportingTsExtensions": true,
+    "declaration": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true
+  },
+  "include": ["config", "examples", "src"],
+  "exclude": ["node_modules", "dist"]
+}

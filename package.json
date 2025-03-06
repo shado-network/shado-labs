@@ -5,7 +5,7 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "scripts": {
     "example:kitchen-sink": "tsx examples/kitchen-sink/index.ts",
     "example:command-line": "tsx examples/command-line/index.ts"

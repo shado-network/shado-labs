@@ -10,12 +10,6 @@
     "example:kitchen-sink": "tsx examples/kitchen-sink/index.ts",
     "example:command-line": "tsx examples/command-line/index.ts"
   },
-  "devDependencies": {
-    "@types/node": "^22.13.5",
-    "@types/yargs": "^17.0.33",
-    "tsx": "^4.19.3",
-    "typescript": "^5.7.3"
-  },
   "dependencies": {
     "@shado-network/adapter-anthropic": "^0.0.1",
     "@shado-network/adapter-deepseek": "^0.0.1",
@@ -30,5 +24,11 @@
     "shado-play": "^0.0.1",
     "shado-puppet": "^0.0.1",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
   }
 }
